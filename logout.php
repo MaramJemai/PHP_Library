@@ -1,0 +1,12 @@
+<?php
+session_start();
+unset($_SESSION["id"]);
+unset($_SESSION["first_name"]);
+unset($_SESSION["last_name"]);
+unset($_SESSION["email"]);
+unset($_SESSION["departement"]);
+unset($_SESSION["role"]);
+unset($_SESSION["image"]);
+unset($_SESSION["verified"]);
+header("Location:home.php");
+?>
